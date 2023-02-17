@@ -29,7 +29,6 @@ jobs:
         run: |
           git clone https://github.com/SavvasStephanides/savvas.git
           mv ./savvas /tmp
-          cd /tmp/savvas
           rm -rf /tmp/savvas/my-twitter-mentions
           cp -r . /tmp/savvas/my-twitter-mentions
           cd /tmp/savvas
