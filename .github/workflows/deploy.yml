@@ -29,8 +29,8 @@ jobs:
         run: |
           git clone https://github.com/SavvasStephanides/savvas.git
           mv ./savvas /tmp
-          rm -rf /tmp/savvas/my-twitter-mentions
-          cp -r . /tmp/savvas/my-twitter-mentions
+          rm -rf /tmp/savvas/static/my-twitter-mentions
+          cp -r . /tmp/savvas/static/my-twitter-mentions
           cd /tmp/savvas
           git status
           git config user.name "${GITHUB_ACTOR}"
